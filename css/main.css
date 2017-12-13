@@ -1,1 +1,12 @@
 /* Los estilos de tu proyecto */
+/* estilos al nav */
+.navbar-fond{
+    height: 15vh;
+    background-color: #ffffff;
+    padding-top: 2em;
+}
+
+.navbar-fond li{
+    margin-right: 2em;
+}
+
