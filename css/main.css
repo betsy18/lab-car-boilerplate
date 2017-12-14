@@ -1,4 +1,12 @@
 /* Los estilos de tu proyecto */
+
+/* seteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* estilos al header */
 .navbar-fond{
     height: 15vh;
@@ -9,4 +17,17 @@
 .navbar-fond li{
     margin-right: 2em;
 }
+
+/* section-taxi */
+.section-taxi figure{
+    background-image: url('../assets/images/taxi.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* @media screen and (){
+    
+} */
+
 
