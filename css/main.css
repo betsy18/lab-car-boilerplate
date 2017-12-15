@@ -25,14 +25,24 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: flex-end;
+    
 }
 
-.fond{
+.background-yellow{
     background-color: #ffc107;
-    height: 40vh;
-    width: 50vw;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* height: 40vh;
+    width: 50vw; */
+    /* position: relative;
+    left: 1em; */
+    /* display: flex;
+    
+    justify-content: center;
+    align-items: center; */
+    color: #ffffff;
+    
+
 }
 
 .fond-phone{
