@@ -32,9 +32,27 @@
 .fond{
     background-color: #ffc107;
     height: 40vh;
-    width: 30vw;
-  
+    width: 50vw;
 }
+
+.fond-phone{
+    background-color: #ffc107;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 2em;
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}
+
+.fond-phone img{
+    max-width: 80%;
+    border: 1px solid #ffffff;
+}
+
+
+
+
 /* @media screen and (){
     
 } */
