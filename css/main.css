@@ -50,6 +50,12 @@
     border: 1px solid #ffffff;
 }
 
+.section-driver figure{
+    background-image: url('../assets/images/conduce.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
 
 
 
