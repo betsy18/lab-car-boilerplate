@@ -8,69 +8,15 @@
 }
 
 /* estilos al header */
-.navbar-fond{
+.container-navbar{
     height: 15vh;
     background-color: #ffffff;
     padding-top: 2em;
-    color: #000000;
 }
 
-.navbar-fond li{
+.container-navbar li{
     margin-right: 2em;
 }
 
-/* section-taxi */
-.section-taxi figure{
-    background-image: url('../assets/images/taxi.jpg');
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    
-}
-
-.background-yellow{
-    background-color: #ffc107;
-    /* display: flex;
-    justify-content: flex-end; */
-    /* height: 40vh;
-    width: 50vw; */
-    /* position: relative;
-    left: 1em; */
-    /* display: flex;
-    
-    justify-content: center;
-    align-items: center; */
-    color: #ffffff;
-    
-
-}
-
-.fond-phone{
-    background-color: #ffc107;
-    text-align: center;
-    /* padding: 2em; */
-    /* display: flex;
-    justify-content: center; */
-    
-}
-
-.fond-phone img{
-    max-width: 80%;
-    border: 1px solid #ffffff;
-    display: block;
-    margin: auto;
-}
-
-.section-driver figure{
-    background-image: url('../assets/images/conduce.jpg');
-    background-size: cover;
-    width: 100vw;
-    height: 100vh
-}
-
-
-/* @media screen and (){
-    
-} */
 
 
