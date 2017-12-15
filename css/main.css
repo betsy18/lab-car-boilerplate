@@ -48,25 +48,25 @@
 .fond-phone{
     background-color: #ffc107;
     text-align: center;
-    border: 1px solid #000000;
-    padding: 2em;
-    /* display: flex; */
-    /* justify-content: center; */
+    /* padding: 2em; */
+    /* display: flex;
+    justify-content: center; */
     
 }
 
 .fond-phone img{
     max-width: 80%;
     border: 1px solid #ffffff;
+    display: block;
+    margin: auto;
 }
 
 .section-driver figure{
     background-image: url('../assets/images/conduce.jpg');
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 100vh
 }
-
 
 
 /* @media screen and (){
