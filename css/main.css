@@ -12,6 +12,7 @@
     height: 15vh;
     background-color: #ffffff;
     padding-top: 2em;
+    color: #000000;
 }
 
 .navbar-fond li{
@@ -24,8 +25,16 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.fond{
+    background-color: #ffc107;
+    height: 40vh;
+    width: 30vw;
+  
+}
 /* @media screen and (){
     
 } */
