@@ -45,7 +45,7 @@
 }
 
 img[alt="logo-blanco"]{
-    width: 6vw;
+    width: 10vw;
 }
 
 
@@ -67,6 +67,10 @@ img[alt="logo-blanco"]{
 
     .phone{
         display: none;
+    }
+
+    img[alt="logo-blanco"]{
+        width: 6vw;
     }
 
     .box-yellow{
