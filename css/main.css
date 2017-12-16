@@ -97,6 +97,7 @@ img[alt="img-phone"]{
 }
 
 .box-transparence{
+    background-color: rgba(50, 50, 54, 0.3);
     color: #ffffff;
     height: 70vh;
 }
