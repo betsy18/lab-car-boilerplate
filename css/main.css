@@ -73,9 +73,6 @@ img[alt="logo-blanco"]{
     border: 1px solid #ffffff;
 }
 
-.line-white img{
-    padding: 3em;  
-}
 
 .box-phone{
     background-color: #f7b617;
@@ -84,7 +81,7 @@ img[alt="logo-blanco"]{
 
 img[alt="img-phone"]{
     width: 60vw;
-    margin-left: 10em;
+    margin-left: 5em;
 }
 
 @media screen and (min-width:991px){
@@ -100,10 +97,6 @@ img[alt="img-phone"]{
 
     img[alt="logo-blanco"]{
         width: 6vw;
-    }
-
-    .box-yellow{
-        height: 55vh; 
     }
 
     .line{
@@ -135,7 +128,15 @@ img[alt="img-phone"]{
     }
 
     img[alt="img-phone"]{
-        width: 30vw;
+        width: 20vw;
+        position: relative;
+        right: 30em;
+        margin-left: 10em; 
     }
     
+    .text{
+        position: relative;
+        right: -22em;
+        font-size: 22px;
+    }
 }
