@@ -30,9 +30,9 @@
 }
 
 .box-yellow{
-    background-color: #ffc107;
+    background-color: #f7b617;
     color: #ffffff;
-    height: 35vh;
+    height: 35vh; 
 }
 
 .box-yellow button{
@@ -42,4 +42,56 @@
     font-size: 18px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
+}
+
+img[alt="logo-blanco"]{
+    width: 6vw;
+}
+
+
+.desktop{
+    display: none;
+}
+
+.phone{
+    display: block;
+}
+
+
+@media screen and (min-width:991px){
+
+    .desktop{
+        display: block;
+        padding: 4%;
+    }
+
+    .phone{
+        display: none;
+    }
+
+    .box-yellow{
+        height: 55vh; 
+    }
+
+    .line{
+        width: 85%;
+        margin: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: visible;
+        box-sizing: content-box;
+        background-color: #ffffff;
+    }
+    
+    .line::after{
+        content: "O bien";
+        padding: 0 2em;
+        position: relative;
+        bottom: 0.7em;
+        left: 10em;
+        font-size: 18px;
+        color: #ffffff;
+        display: inline-block;
+        background-color: #f7b617
+    }
 }
