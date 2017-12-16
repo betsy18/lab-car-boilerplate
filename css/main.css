@@ -18,5 +18,11 @@
     margin-right: 2em;
 }
 
-
+/* section-taxi */
+.section-taxi figure{
+    background-image: url('../assets/images/taxi.jpg');
+    height: 100vh;
+    background-position: center bottom;
+    background-size: cover;
+}
 
