@@ -116,9 +116,13 @@ img[alt="img-phone"]{
 }
 
 /* section-map */
-.line-map{
+/* .line-map{
     margin: 2em;
     border: 1px solid #ffffff;
+} */
+
+.line-map img{
+    text-align: center;
 }
 
 @media screen and (min-width:991px){
