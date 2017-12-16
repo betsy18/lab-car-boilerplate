@@ -24,5 +24,13 @@
     height: 100vh;
     background-position: center bottom;
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.box-yellow{
+    background-color: #ffc107;
+    color: #ffffff;
+    height: 30vh;
+}
