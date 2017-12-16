@@ -34,3 +34,12 @@
     color: #ffffff;
     height: 35vh;
 }
+
+.box-yellow button{
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
