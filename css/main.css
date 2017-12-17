@@ -122,19 +122,20 @@ footer{
     padding-bottom: 5em;
 }
 
-/* footer hr{
-    width: 70%;
-} */
-
-/* footer div img{
-    max-width: 100%;
-} */
+footer div i{
+    margin-right: 1em;
+}
 
 footer li, p{
     font-size: 16px;
     padding-bottom: 1em;
     font-weight: 500;
 }
+
+footer figure img{ 
+    margin-bottom: 2em;
+}
+
 
 @media screen and (min-width:991px){
 
@@ -196,5 +197,21 @@ footer li, p{
         position: relative;
         right: -20em;
         top: 3em;
+    }
+
+    footer div i{
+        position: relative;
+        top: 19em;
+        margin-right: 1em;
+    }
+
+    .top{
+        position: relative;
+        top: 3.4em;
+    }
+
+    footer figure img{ 
+        position: relative;
+        top: 7em;
     }
 }
