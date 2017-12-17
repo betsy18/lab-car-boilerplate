@@ -201,17 +201,11 @@ footer figure img{
 
     footer div i{
         position: relative;
-        top: 19em;
-        margin-right: 1em;
-    }
-
-    .top{
-        position: relative;
-        top: 3.4em;
+        top: 21.4em;
     }
 
     footer figure img{ 
         position: relative;
-        top: 7em;
+        top: 3em;
     }
 }
