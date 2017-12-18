@@ -64,6 +64,10 @@ img[alt="logo-blanco"]{
     text-align: center;
 }
 
+.text-red{
+    text-decoration: none;
+    color: #ff0000;
+}
 .sub-title{
     padding-left: 1em;
 }
@@ -78,8 +82,7 @@ img[alt="logo-blanco"]{
 
 /* modal-sesion */
 .modal-session{
-    background-color:#08ac9d;
-    
+    background-color:#08ac9d;    
 }
 
 .modal-session i{
@@ -88,7 +91,11 @@ img[alt="logo-blanco"]{
     color: #3390ff;
 }
 
-
+.modal-session form{
+    background-color: #ffffff;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+}
 /* section phone */
 .line-white{
     margin: 2em 1em;
@@ -218,6 +225,12 @@ footer figure img{
         position: relative;
         right: -20em;
         top: 3em;
+    }
+
+    .modal-session form{
+        background-color: #ffffff;
+        width: 20vw;
+        margin-left: 9em;
     }
 
     footer div i{

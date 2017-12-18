@@ -64,21 +64,41 @@
 
     <!-- prueba de modal -->
     <section class="modal fade center" id="iniciarSesion" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content modal-session">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-session">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                  <i class="fa fa-user-circle fa-5x" aria-hidden="true"></i>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <i class="fa fa-user-circle fa-5x" aria-hidden="true"></i>
                 </div>
                 <div class="modal-body">
-                  En unos instantes seras contactada
-                  <br> por uno de nuestros operadores.
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-xs-2 col-sm-offset-2 control-label"><span class="glyphicon glyphicon-user"></span></label>
+                            <div class="col-xs-10 col-sm-7">
+                                <input type="text" class="form-control" id="inputEmail3" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-xs-2 col-sm-offset-2 control-label"><span class="glyphicon glyphicon-lock"></span></label>
+                            <div class="col-xs-10 col-sm-7">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-default box-yellow">Login</button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Forgot password? <a href="#" class="text-red">Click here</a></p>
+                        </div>
+                    </form>
                 </div>
-              </div>
             </div>
-          </section>
+        </div>
+    </section>
     <!-- section-taxi -->
     <section class="section-taxi">
         <div class="container-fluid">
