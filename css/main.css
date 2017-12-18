@@ -68,6 +68,27 @@ img[alt="logo-blanco"]{
     padding-left: 1em;
 }
 
+/* css modal */
+.center{
+    text-align: center;
+    position: absolute;
+    top: 15em;
+}
+
+
+/* modal-sesion */
+.modal-session{
+    background-color:#08ac9d;
+    
+}
+
+.modal-session i{
+    background-color: #027feb;
+    padding: 0.2em;
+    color: #3390ff;
+}
+
+
 /* section phone */
 .line-white{
     margin: 2em 1em;
