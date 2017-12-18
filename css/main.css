@@ -79,7 +79,6 @@ img[alt="logo-blanco"]{
     top: 15em;
 }
 
-
 /* modal-sesion */
 .modal-session{
     background-color:#08ac9d;    
@@ -98,6 +97,36 @@ img[alt="logo-blanco"]{
 }
 
 /* modal register */
+.modal-register{
+    background-color: #a9a9a9;    
+}
+
+.modal-register a{
+    text-decoration: none;
+    color: #3390ff;    
+}
+
+.blue{
+    background-color: #3390ff;;
+    color: #ffffff;
+    padding: 0.5em;
+    padding-left:17em;
+    padding-right: 20em; 
+    text-align: center;
+}
+
+.button-black{
+    background-color: #000000;;
+    color: #ffffff;
+    padding-left: 10em;
+    padding-right: 10em; 
+}
+
+/* modal-driver */
+.modal-driver{
+    background-color: #a9a9a9;    
+}
+
 
 /* section phone */
 .line-white{
