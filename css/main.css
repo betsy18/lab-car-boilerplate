@@ -122,6 +122,17 @@ img[alt="logo-blanco"]{
     padding-right: 10em; 
 }
 
+.button-style-one{
+    padding-left: 11em;
+    padding-right: 13em;
+}
+
+.button-style{
+    padding-left: 15em;
+    padding-right: 15em;
+    text-align: center;
+}
+
 /* modal-driver */
 .modal-driver{
     background-color: #a9a9a9;    
