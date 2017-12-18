@@ -62,7 +62,7 @@
         </div>
     </header>
 
-    <!-- prueba de modal -->
+    <!-- modal-session -->
     <section class="modal fade center" id="iniciarSesion" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-session">
@@ -75,30 +75,37 @@
                 <div class="modal-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label for="inputEmail3" class="col-xs-2 col-sm-offset-2 control-label"><span class="glyphicon glyphicon-user"></span></label>
+                            <label for="inputEmail3" class="col-xs-2 col-sm-offset-2 control-label">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </label>
                             <div class="col-xs-10 col-sm-7">
                                 <input type="text" class="form-control" id="inputEmail3" placeholder="Username">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputPassword3" class="col-xs-2 col-sm-offset-2 control-label"><span class="glyphicon glyphicon-lock"></span></label>
+                            <label for="inputPassword3" class="col-xs-2 col-sm-offset-2 control-label">
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </label>
                             <div class="col-xs-10 col-sm-7">
                                 <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-10">
-                                <button type="submit" class="btn btn-default box-yellow">Login</button>
+                            <div class="col-sm-10 col-sm-offset-1">
+                                <button class="btn btn-default btn-sm-2 box-yellow" role="button">Login</button>
                             </div>
                         </div>
                         <div>
-                            <p>Forgot password? <a href="#" class="text-red">Click here</a></p>
+                            <p>Forgot password?
+                                <a href="#" class="text-red">Click here</a>
+                            </p>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- section-taxi -->
     <section class="section-taxi">
         <div class="container-fluid">
@@ -124,10 +131,12 @@
                                 <img src="assets/images/logoBlanco.png" alt="logo-blanco">
                             </h3>
                             <br>
-                            <p>
+                            <p class="btn-alert" data-toggle="modal" data-target="#btnRegister">
                                 <button class="btn btn-default btn-lg" role="button">REGÍSTRATE</button>
-                                <hr class="line">
-                                <br>
+                            </p>
+                            <hr class="line">
+                            <br>
+                            <p class="btn-alert" data-toggle="modal" data-target="#btnDriver">
                                 <button class="btn btn-default btn-lg" role="button">Conviértete en un conductor</button>
                             </p>
                         </div>
@@ -136,6 +145,59 @@
             </div>
         </div>
     </section>
+
+    <!-- modal-register -->
+    <section class="modal fade center" id="btnRegister" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-register">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <button class="btn btn-default btn-lg" role="button">¿Ya tienes una cuenta?</button>
+                                <br>
+                                <p>O CREA UNA CUENTA NUEVA</p>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control col-sm-3" id="inputEmail3" placeholder="Nombre">
+                                <input type="text" class="form-control col-sm-3" id="inputEmail3" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Telefono">
+                                </div>
+                            </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="inputPassword3" placeholder="Ciudad">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="inputPassword3" placeholder="(opcional) cod invitación">
+                                </div>
+                            </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-default">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- section-phone -->
     <section class="section-phone">
