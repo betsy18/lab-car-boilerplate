@@ -51,7 +51,7 @@
                                 <li>
                                     <a href="#">Conduce</a>
                                 </li>
-                                <li>
+                                <li class="btn-alert" data-toggle="modal" data-target="#iniciarSesion">
                                     <a href="#">Inicia sesión</a>
                                 </li>
                             </ul>
@@ -62,6 +62,31 @@
         </div>
     </header>
 
+    <!-- prueba de modal -->
+    <section class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title" id="myModalLabel">
+                    <strong>Tu reporte ha sido recibido</strong>
+                  </h4>
+                </div>
+                <div class="modal-body">
+                  En unos instantes seras contactada
+                  <br> por uno de nuestros operadores.
+                </div>
+                <div class="container icons">
+                  <div class="row">
+                    <i class="col-xs-6 fa fa-check fa-4x" aria-hidden="true"></i>
+                    <i class="col-xs-6 fa fa-volume-control-phone fa-4x" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
     <!-- section-taxi -->
     <section class="section-taxi">
         <div class="container-fluid">
@@ -112,7 +137,7 @@
                         </div>
                         <div class="desktop">
                             <div class="row">
-                                <div class=" col-sm-5 col-md-4">
+                                <div class="col-sm-5 col-md-4">
                                     <div class="text">
                                         <h3>Descarga la nueva versión</h3>
                                         <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde
@@ -122,10 +147,9 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-7 col-md-8">
-                                    <img src="assets/images/iphone6Plus.png" alt="img-phone">
+                                    <img src="assets/images/iPhone6Plus.png" alt="img-phone">
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <h3 class="sub-title phone">Llega a tu destino más rápido</h3>
@@ -160,7 +184,7 @@
     <section class="section-map">
         <div class="container-fluid box-yellow">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 move-left">
+                <div class="col-xs-12 col-sm-6 col-md-6 move-left">
                     <h3>Tarifas</h3>
                     <p>Consulta las tarifas LabCar aquí</p>
                     <form class="form-horizontal" role="form">
@@ -173,7 +197,7 @@
                                 <input type="text" class="form-control desktop" id="inputEmail3" placeholder="Ingrese su punto de partida">
                             </div>
                         </div>
-                        <div class="form-group ">
+                        <div class="form-group">
                             <label for="ejemplo_email_3" class="col-lg-1 control-label ">
                                 <img src="assets/images/shape2.png" alt="shape2">
                             </label>
@@ -185,7 +209,7 @@
                     </form>
                     <button class="btn btn-default btn-lg" role="button">! TRAZAR RUTA ¡</button>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <img src="assets/images/mapa.png" alt="mapa" class="col-xs-12 phone">
                     <img src="assets/images/mapa1.png" alt="mapa" class="col-md-7 col-sm-7 desktop">
                 </div>
