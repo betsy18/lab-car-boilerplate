@@ -147,15 +147,15 @@
     </section>
 
     <!-- modal-register -->
-    <section class="modal fade center" id="btnRegister" role="dialog">
+    <section class="modal fade" id="btnRegister" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content modal-register">
-                <div class="modal-header">
+                <div class="modal-body">
+                    <br>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
-                <div class="modal-body">
+                    <br>
                     <form class="form-horizontal">
                         <div class="form-group">
                             <div class="col-sm-12">
@@ -163,33 +163,54 @@
                                 <br>
                                 <p>O CREA UNA CUENTA NUEVA</p>
                             </div>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control col-sm-3" id="inputEmail3" placeholder="Nombre">
-                                <input type="text" class="form-control col-sm-3" id="inputEmail3" placeholder="Apellido">
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Apellido">
                             </div>
                         </div>
                         <div class="form-group">
-                                <div class="col-sm-12">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Telefono">
-                                </div>
+                            <div class="col-sm-12">
+                                <input type="number" class="form-control" placeholder="Telefono">
                             </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-sm-12">
                                 <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
                             </div>
                         </div>
                         <div class="form-group">
-                                <div class="col-sm-12">
-                                    <input type="text" class="form-control" id="inputPassword3" placeholder="Ciudad">
-                                </div>
-                            </div>
                             <div class="col-sm-12">
-                                    <input type="text" class="form-control" id="inputPassword3" placeholder="(opcional) cod invitación">
-                                </div>
+                                <input type="text" class="form-control" placeholder="Ciudad">
                             </div>
+                        </div>
                         <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="button" class="btn btn-default">Sign in</button>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" placeholder="(opcional) cod invitación">
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="true">
+                                ¿Cómo te enteraste de nosotros?
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li>
+                                    <a href="#">Noticias</a>
+                                </li>
+                                <li>
+                                    <a href="#">Periódico</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-default">Enviar</button>
                             </div>
                         </div>
                     </form>
