@@ -8,6 +8,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* mapa */
+#map {
+  height: 50vh;
+  width: 80vw;
+  margin: 1rem;
+}
+
 /* estilos al header */
 .container-navbar{
     height: 15vh;
@@ -210,7 +217,7 @@ footer figure img{
 
 @media screen and (min-width:991px){
 
-    .desktop{
+  .desktop{
         display: block;
         padding: 4%;
     }
@@ -219,9 +226,18 @@ footer figure img{
         display: none;
     }
 
+    #map {
+      height: 50vh;
+      width: 35vw;
+      border: 1px solid #ffffff;
+      margin: 1rem;
+    }
+    
+
     img[alt="logo-blanco"]{
         width: 6vw;
     }
+
 
     .line{
         width: 85%;
