@@ -39,8 +39,8 @@ function initMap() {
 
   var calculateAndDisplayRoute = function(directionsService, directionsDisplay) {
     directionsService.route({
-      origin: inputInicio.value,
-      destination: inputDestino.value,
+      origin: txtOrigin.value,
+      destination: txtDestiny.value,
       travelMode: 'DRIVING',
       unitSystem: google.maps.UnitSystem.METRIC
     }, function(response, status) {
