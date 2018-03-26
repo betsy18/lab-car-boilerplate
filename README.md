@@ -1,6 +1,6 @@
 ## Lab Car
 
-Retos de código que consiste en replicar una página web responsive con bootstrap 3, se le añadió el api de google maps, para trazado de rutas. 
+Reto de código que consiste en replicar una página web responsive con bootstrap 3, se le añadió el api de google maps, para trazado de rutas. 
 
 ### Archivos utilizados
 
