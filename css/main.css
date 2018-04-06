@@ -13,6 +13,7 @@
   height: 50vh;
   width: 80vw;
   margin: 1rem;
+  color: black;
 }
 
 /* estilos al header */
@@ -53,7 +54,7 @@
 }
 
 img[alt="logo-blanco"]{
-    width: 10vw;
+    width: 30vw;
 }
 
 /* fin section-taxi */
@@ -159,7 +160,8 @@ img[alt="logo-blanco"]{
 
 img[alt="img-phone"]{
     width: 60vw;
-    margin-left: 5em;
+    margin-left: 3em;
+    margin-bottom: 1em;
 }
 
 
